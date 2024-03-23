@@ -1,58 +1,61 @@
-# The IPFS Primer
+# IPFS入门指南
 
-This primer contains a series of tutorials explaining IPFS, Merkle Trees and the Decentralized Web. It's written and maintained as a [gitbook](https://www.gitbook.com/about) so people can read it in many formats.
+本入门指南包含一系列教程，解释了IPFS、Merkle树以及去中心化网络。它以 [Gitbook](https://www.gitbook.com/about) 的形式编写和维护，因此人们可以通过多种格式阅读它。
 
-The GitHub repository for this book is at https://github.com/ipfs-shipyard/ipfs-primer.
+本书的原版 GitHub 仓库位于 https://github.com/ipfs-shipyard/ipfs-primer。  
+中文版翻译的 GitHub 仓库位于 https://github.com/ipfs-cn/ipfs-primer。
 
-# Getting Help
 
-During these tutorials, if you have any questions feel free to ask them in [the IPFS forums](https://discuss.ipfs.io) or in [the #ipfs channel on chat.freenode.net](irc://chat.freenode.net/%23ipfs). We have a large, active community who use these venues as our main places to seek support and to provide it.
+# 获取帮助
 
-## Tutorials
+在这些教程中，如果你有任何问题，欢迎在[IPFS论坛](https://discuss.ipfs.io) 或 [chat.freenode.net 上的 #ipfs 频道](irc://chat.freenode.net/%23ipfs) 提问。我们拥有一个庞大、活跃的社区，这些场所是我们主要寻求支持和提供帮助的地方。
 
-The primer contains tutorials about
+## 教程
 
- 1. [Downloading and Installing IPFS](install-ipfs/README.md)
- 2. [Files on IPFS](files-on-ipfs/README.md)
- 3. [Going Online - Joining the Distributed Web](going-online/README.md)
- 4. [Interacting with the Classical (HTTP) Web](classical-web/README.md)
- 5. [The Myriad ways to Access and Distribute IPFS Content](avenues-for-access/README.md)
- 6. [Making Changes on the Permanent Web](publishing-changes/README.md)
- 7. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
- 8. [Dynamic Content on IPFS](dynamic-content/README.md)
+本指南包含关于
 
- For a full list of tutorials, look at the [Table of Contents](SUMMARY.md).
+ 1. [下载和安装IPFS](install-ipfs/README.md)
+ 2. [IPFS上的文件](files-on-ipfs/README.md)
+ 3. [联网 - 加入分布式网络](going-online/README.md)
+ 4. [与传统 (HTTP) 网络的交互](classical-web/README.md)
+ 5. [访问和分发 IPFS 内容的众多方式](avenues-for-access/README.md)
+ 6. [在永久网络上进行更改](publishing-changes/README.md)
+ 7. [Merkle 树和 IPFS DAG](ipfs-dag/README.md)
+ 8. [IPFS 上的动态内容](dynamic-content/README.md)
 
-## Concepts
+ 完整的教程列表，详情请查看[目录](SUMMARY.md)。
 
-* Cryptographic Hashes and Content Addressability
-* Authenticated Graphs
-* Turning Files into Trees
-* Turning any Data into Trees
-* Publishing hashes on the DHT
-* Getting data from the Peer to Peer Network
-* Immutability: "Changes" as _additions_ to the tree
+## 概念
+
+* 加密哈希和内容寻址
+* 身份验证图
+* 将文件转换为树结构
+* 将任何数据转换为树结构
+* 在 DHT 上发布哈希
+* 从对等网络 (P2P) 获取数据
+* 不变性：“更改”作为树结构的 _添加_
 * CRDTs
 * Pubsub
-* Authenticated Streams (with pubsub)
+* 经过身份验证的流（使用pubsub）
 
-## Format
+## 格式
 
-Each tutorial is a set of *lessons* that all use a format inspired by the [Railsbridge Curriculum](http://curriculum.railsbridge.org/intro-to-rails/). Each lesson declares a set of *Goals*, or [learning objectives](http://edglossary.org/learning-objectives/), then lists the *Steps*, or activities, and finally provides an *Explanation* that reviews what you've done and connects those activities to the lesson's stated Goals. The format for each lesson looks like this:
+每个教程是一组 *课程*，所有这些课程都使用受 [Railsbridge课程](http://curriculum.railsbridge.org/intro-to-rails/) 启发的格式。每节课都声明一组 *目标*，或 [学习目标](http://edglossary.org/learning-objectives/)，然后列出 *步骤* ，或活动，最后提供 *解释*，回顾你所做的内容，并将这些活动与课程的目标联系起来。每节课的格式如下：
 
-![Sample of Railsbridge Lesson format](/images/railsbridge-format.png)
+![Railsbridge课程格式示例](/images/railsbridge-format.png)
 
-## Note for Contributors
+## 对贡献者的说明
 
-For a concise explanation of Learning Objectives (which we're calling _Goals_ in this book), read UC Denver's [Assessment & Instructional Alignment Tutorial](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/index.htm). Try to make your learning objectives [Specific, observable and measurable](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/good_objectives.htm) and heed their tip to use the list of verbs in the [taxonomy table worksheet](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) to help you choose observable behaviors for your course learning objectives.
+为了简要说明学习目标（在本书中我们称之为 _目标_ ），请阅读 UC Denver 的 [评估与教学对齐教程](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/index.htm)。尝试使你的学习目标 [具体、可观察且可衡量](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/good_objectives.htm)，并遵循他们使用 [认知过程级别的动词表工作表](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) 中的动词列表来帮助你选择课程学习目标的可观察行为的建议。
 
-To build the HTML, PDF, epub and mobi versions of the book with one command, run `./build-book.sh`
+要一次性构建书籍的HTML、PDF、epub和mobi版本，请运行 `./build-book.sh`
 
-# Contributors
+# 贡献者
 
-This primer was created by @flyingzumwalt. The contents of these tutorials were initially pulled from documentation in the first-generation documentation homed on the IPFS website and the (now-inactive) IPFS examples git repository. (Find them in their new homes on [docs.ipfs.io](https://docs.ipfs.io), particularly the ["Usage ideas and examples"](https://docs.ipfs.io/concepts/usage-ideas-examples/) section.)
+本入门指南由 @flyingzumwalt 创建。这些教程的内容最初是从 IPFS 网站上的第一代文档和 IPFS 示例（现已归档）的 git 仓库中提取的。它们现在已迁移到 [docs.ipfs.io](https://docs.ipfs.io)上，特别是 ["使用思路和示例"](https://docs.ipfs.io/concepts/usage-ideas-examples/) 部分。
 
-Contributors to those original docs included
+对这些原始文档做出贡献的人包括：
+
 * @whyrusleeping
 * @jbenet
 * @lgierth
@@ -61,4 +64,5 @@ Contributors to those original docs included
 * @adambrault
 * @donothesitate
 * @djdv
-plus a long list of [contributors](https://github.com/ipfs/examples/network/members) to the original examples repository
+
+以及原始示例仓库的一长串 [贡献者](https://github.com/ipfs/examples/network/members)。
