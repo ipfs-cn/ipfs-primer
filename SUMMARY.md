@@ -1,9 +1,9 @@
 # Table of contents
 
 * [简介](README.md)
-* [Tutorial: Install and Initialize IPFS](install-ipfs/README.md)
-  * [Lesson: Download and Install IPFS](install-ipfs/lessons/download-and-install.md)
-  * [Lesson: Initialize your IPFS Repository](install-ipfs/lessons/initialize-repository.md)
+* [教学：安装并和初始化 IPFS ](install-ipfs/README.md)
+  * [课程: 下载和安装 IPFS](install-ipfs/lessons/download-and-install.md)
+  * [课程: 初始化你的 IPFS 储存库](install-ipfs/lessons/initialize-repository.md)
 * [Tutorial: Files on IPFS](files-on-ipfs/README.md)
   * [Lesson: Add Content to IPFS and Retrieve It](files-on-ipfs/lessons/add-and-retrieve-file-content.md)
   * [Lesson: Wrap Filenames and Directory Info around Content](files-on-ipfs/lessons/wrap-directories-around-content.md)
