@@ -1,40 +1,40 @@
-# Tutorial: Files on IPFS
-These Lessons are tested with go-ipfs versions:
-0.5.0,
+# 教程：IPFS上的文件
+这些课程已在以下 go-ipfs 版本测试通过：
+0.5.0，
 0.9.0
 
-_Please update this file on github to reflect any other versions that have been tested._
+_请在 github 上更新此文件，以反映已经测试过的任何其他版本。_
 
-## Prerequisites
+## 先决条件
 
-- You should have some familiarity with the command line.
-- You should have `ipfs` installed - the [previous tutorial](../install-ipfs) has instructions for that
+- 你应该对命令行有一定的熟悉度。
+- 已经安装了 `ipfs` - [上一个教程](../install-ipfs) 中有安装说明
 
-## Learning Objectives
-These Lessons will teach you how to
-* Add files to your local IPFS node
-* Read files out of your local IPFS node
-* List the files in your IPFS node
-* Tell IPFS to hold onto files by _pinning_ them
+## 学习目标
+这些课程将教你如何：
+* 向你的本地 IPFS 节点添加文件
+* 从你的本地 IPFS 节点读取文件
+* 列出你的 IPFS 节点中的文件
+* 通过 _固定（pinning）_ 功能来告诉 IPFS 保留一个文件
 
-## Key Concepts
-* Distinction between IPFS and your regular Filesystem
-* Identifying files by their Hashes
-* IPFS Garbage Collection
-* Pinning files on an IPFS Node
+## 关键概念
+* IPFS 与常规文件系统之间的区别
+* 通过哈希值来识别文件
+* IPFS 的垃圾回收
+* 在 IPFS 节点上固定文件
 
-## Lessons
+## 课程
 
-1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
-2. [Lesson: Wrap Filenames and Directory Info around Content in IPFS](/files-on-ipfs/lessons/wrap-directories-around-content.md)
-3. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
+1. [课程：向 IPFS 中添加内容并检索](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
+2. [课程：在 IPFS 通过文件夹来保存文件名信息](/files-on-ipfs/lessons/wrap-directories-around-content.md)
+3. [课程：固定 - 告诉 IPFS 保留文件](/files-on-ipfs/lessons/pin-files.md)
 
-## Next Steps
+## 下一步
 
-Once you know how to add files to IPFS and retrieve them, you will be ready to share those files on the P2P network following the [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
+当了解如何向 IPFS 添加文件并检索后，下一步就是在 P2P 网络上分享这些文件了，详情参考文章： [教程：上线 - 加入分布式网络](/going-online/README.md)
 
-If you're wondering how to update those files after you've shared them, see the [Tutorial: Publishing Changes on the Permanent Web](/publishing-changes/README.md)
+如果你想知道在分享这些文件后如何更新它们，请参见 [教程：在永久网络上发布更改](/publishing-changes/README.md)。
 
-If you want to see how to access those files from the conventional HTTP web, go to the [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
+如果想了解如何通过传统的 HTTP 方式访问这些文件，请转到 [教程：与经典(HTTP)网络互动](/classical-web/README.md)。
 
-If you want to know more about how IPFS stores this content internally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)
+如果想更多地了解 IPFS 在内部如何使用 Merkle DAGs 来存储这些内容，请前往 [教程：Merkle树和IPFS DAG](/ipfs-dag/README.md)。
